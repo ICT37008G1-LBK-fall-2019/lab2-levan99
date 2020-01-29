@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lab 2/2</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+   
+   <h2>password: secured</h2>
+    <script async>
+      
+        var myPass = 'secured';
+        var pass = prompt('Password:').toString();
+        
+        while (pass != myPass) {
+            
+            if (pass !== myPass) {
+                 pass = prompt('Wrong Passowrd, Try Again!');
+            }else {
+             alert('Its Ok');
+            }
+            
+        }
+        
+        
+      </script>
+  </body>
+</html>
